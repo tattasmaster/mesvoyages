@@ -26,8 +26,6 @@ class VisiteFixture extends Fixture
             //enregistrement de l'objet
             $manager->persist($visite);
         }
-        
-
         $manager->flush();
     }
 }
